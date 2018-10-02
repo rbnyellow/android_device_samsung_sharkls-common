@@ -268,7 +268,6 @@ TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery/recovery.fstab
 
 # VINTF
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
-DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
 
 #######################################################
 # TWRP
