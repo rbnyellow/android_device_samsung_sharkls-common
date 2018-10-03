@@ -251,6 +251,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# download
+PRODUCT_PACKAGES += \
+    download
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/wcn/connectivity_calibration.ini:$(TARGET_COPY_OUT_VENDOR)/etc/connectivity_calibration.ini \
+    $(LOCAL_PATH)/configs/wcn/connectivity_configure.ini:$(TARGET_COPY_OUT_VENDOR)/etc/connectivity_configure.ini \
+    $(LOCAL_PATH)/configs/wcn/sc2331_fdl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sc2331_fdl.bin \
+    $(LOCAL_PATH)/configs/wcn/sc2331_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sc2331_fw.bin
+
+# shim
 PRODUCT_PACKAGES += \
     libgpsshim \
     libprotobufshim
@@ -291,7 +302,6 @@ PRODUCT_PACKAGES += \
     phasecheckserver \
     radvd \
     refnotify \
-    download \
     wcnd \
     wcnd_cli \
     slog \
