@@ -1,4 +1,4 @@
-service SMD-daemon /vendor/bin/smdexe
+service SMD-daemon /system/bin/smdexe
     class main
     user root
     group system radio inet net_raw
