@@ -266,6 +266,18 @@ PRODUCT_PACKAGES += \
     libgpsshim \
     libprotobufshim
 
+# Stagefright SPRD
+PRODUCT_PACKAGES += \
+    libstagefright_sprd_h264dec \
+    libstagefright_sprd_h264enc \
+    libstagefright_sprd_mp3dec \
+    libstagefright_sprd_mpeg4dec \
+    libstagefright_sprd_mpeg4enc \
+    libstagefright_sprd_vpxdec \
+    libstagefright_sprd_soft_h264dec \
+    libstagefright_sprd_soft_mpeg4dec \
+    libstagefrighthw
+
 PRODUCT_PACKAGES += \
     camera.sc8830 \
     power.sc8830 \
@@ -278,24 +290,12 @@ PRODUCT_PACKAGES += \
     libion \
     libmemoryheapion \
     libefuse \
-    libomxil-bellagio \
-    libstagefright_sprd_h264dec \
-    libstagefright_sprd_h264enc \
-    libstagefright_sprd_mp3dec \
-    libstagefright_sprd_mpeg4dec \
-    libstagefright_sprd_mpeg4enc \
-    libstagefright_sprd_soft_h264dec \
-    libstagefright_sprd_soft_mpeg4dec \
-    libstagefright_sprd_vpxdec \
     libdumpdata \
     libnvexchange \
     libvbpga \
     libvbeffect \
     libatchannel \
     audio.primary.sc8830 \
-    libstagefrighthw_cm \
-    libstagefrighthw \
-    libomxvpu \
     liboemcrypto \
     modem_control \
     cp_diskserver \
