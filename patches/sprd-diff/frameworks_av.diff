@@ -124,18 +124,6 @@ index 1030407..02ddcdb 100644
      };
  
      enum BufferFlags {
-diff --git a/media/libstagefright/omx/OMXMaster.cpp b/media/libstagefright/omx/OMXMaster.cpp
-index fd97fdc..5bf845f 100644
---- a/media/libstagefright/omx/OMXMaster.cpp
-+++ b/media/libstagefright/omx/OMXMaster.cpp
-@@ -63,6 +63,7 @@ OMXMaster::~OMXMaster() {
- }
- 
- void OMXMaster::addVendorPlugin() {
-+    addPlugin("libstagefrighthw_cm.so");
-     addPlugin("libstagefrighthw.so");
- }
- 
 diff --git a/media/mtp/MtpDataPacket.cpp b/media/mtp/MtpDataPacket.cpp
 index d1c71d7..f5e4b74 100644
 --- a/media/mtp/MtpDataPacket.cpp
