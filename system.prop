@@ -172,3 +172,4 @@ ro.com.google.gmsversion=7.1_r4
 ro.build.aapt.config.prefer=xhdpi
 ro.com.android.mobiledata=false
 ro.egl.destroy_after_detach=true
+ro.sf.disable_triple_buffer=0
